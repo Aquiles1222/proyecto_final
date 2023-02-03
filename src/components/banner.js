@@ -7,9 +7,12 @@ function Banner() {
     <>
       <div>
         <BannerCss>
+          <header className='NavBarInvisible'>
+
+          </header>
           <article className='banner'>
             <div className='bannerContenido'>
-              <h1>Burger Proytect</h1>
+              <h1>Burger Proyect</h1>
               <Link to='/error'>Haz tu pedido ya</Link>
             </div>
           </article>
@@ -24,10 +27,14 @@ const BannerCss = styled.body`
 *{
     font-family: fantasy !important;
   }
+  .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 100px;
+}
 .banner {
   position: relative;
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-color: tomato;
   background-size: 100%;
   background-position: center;

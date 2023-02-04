@@ -31,65 +31,63 @@ const Registro = () => {
                                 <br></br>
                                 <h3>*Obligatorio</h3>
                                 <br></br>
-                                <div className="FondoArticle">
-                                    <article className="article ">
-                                        <br></br>
-                                        <div className="mb-3">
-                                            <label for="exampleFormControlInput1" className="form-label">
-                                                * Nombre Completo
-                                            </label>
-                                            <Input
-                                                attribute={{
-                                                    id: "nombre",
-                                                    name: "nombre",
-                                                    type: "text",
-                                                    placeholder: "Ingrese su nombre"
-                                                }}
-                                            />
-                                        </div>
-                                        <br></br>
-                                        <br></br>
-                                        <div className="mb-3">
-                                            <label for="exampleFormControlInput1" className="form-label">
-                                                *Email
-                                            </label>
-                                            <Input
-                                                attribute={{
-                                                    id: "mail",
-                                                    name: "mail",
-                                                    type: "text",
-                                                    placeholder: "Ingrese su mail"
-                                                }}
-                                            />
-                                        </div>
-                                        <br></br>
-                                        <br></br>
-                                        <div className="mb-3">
-                                            <label for="exampleFormControlInput1" className="form-label">
-                                                *Contraseña
-                                            </label>
-                                            <Input
-                                                attribute={{
-                                                    id: "contraseña",
-                                                    name: "contraseña",
-                                                    type: "password",
-                                                    placeholder: "Ingrese su contraseña",
-                                                }}
-                                            />
-                                        </div>
-                                        <br></br>
-                                        <br></br>
-                                        <div className="d-grid gap-2 d-md-block">
-                                            <a
-                                                className="btn btn-dangerbtn btn-secondary"
-                                                href=""
-                                                role="button"
-                                            >
-                                                Enviar
-                                            </a>
-                                        </div>
-                                    </article>
-                                </div>
+                                <article className="article ">
+                                    <br></br>
+                                    <div className="mb-3">
+                                        <label for="exampleFormControlInput1" className="form-label">
+                                            * Nombre Completo
+                                        </label>
+                                        <Input
+                                            attribute={{
+                                                id: "nombre",
+                                                name: "nombre",
+                                                type: "text",
+                                                placeholder: "Ingrese su nombre"
+                                            }}
+                                        />
+                                    </div>
+                                    <br></br>
+                                    <br></br>
+                                    <div className="mb-3">
+                                        <label for="exampleFormControlInput1" className="form-label">
+                                            *Email
+                                        </label>
+                                        <Input
+                                            attribute={{
+                                                id: "mail",
+                                                name: "mail",
+                                                type: "text",
+                                                placeholder: "Ingrese su mail"
+                                            }}
+                                        />
+                                    </div>
+                                    <br></br>
+                                    <br></br>
+                                    <div className="mb-3">
+                                        <label for="exampleFormControlInput1" className="form-label">
+                                            *Contraseña
+                                        </label>
+                                        <Input
+                                            attribute={{
+                                                id: "contraseña",
+                                                name: "contraseña",
+                                                type: "password",
+                                                placeholder: "Ingrese su contraseña",
+                                            }}
+                                        />
+                                    </div>
+                                    <br></br>
+                                    <br></br>
+                                    <div className="d-grid gap-2 d-md-block">
+                                        <a
+                                            className="btn btn-dangerbtn btn-secondary"
+                                            href=""
+                                            role="button"
+                                        >
+                                            Enviar
+                                        </a>
+                                    </div>
+                                </article>
                             </section>
                         </main>
                     </body>
@@ -107,19 +105,22 @@ const RegistroContain = styled.body`
   * {
     font-family: fantasy !important;
   }
+  .Main {
+    background-color: white;
+    box-sizing: 100 100;
+}
 
   .textAreaComentario {
     height: 148px;
   }
   .containerRegistro {
     font-family: sans-serif;
-    height: 0px;
+    height: 150px;
     background-color: rgb(237, 215, 188);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 50px;
-    padding-bottom: 200px;
   }
 .Obligatorio {
     margin-top: 0;
@@ -131,13 +132,8 @@ const RegistroContain = styled.body`
   }
 
 .article {
-    margin-top: 600px;
-    padding-left: 00px;
+    margin-top: 00px;
   }
-  .NavBarInvisible {
-      margin-top: 0;
-      margin-bottom: 100px;
-    }
 
   @media only screen and (max-width: 600px) {
     .NavBarInvisible {

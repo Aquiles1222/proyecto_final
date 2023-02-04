@@ -1,0 +1,9 @@
+.title-container {
+    color: #000000;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}

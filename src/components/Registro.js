@@ -11,7 +11,8 @@ const Registro = () => {
             <RegistroContain>
                 <div>
                     <main className="Main">
-                        <div className="containerRegistro .col-5 .col-lg-12">
+                        <section className="containerRegistro1 .col-5 .col-lg-12">
+                        <div >
                             <a className="navbar-brand" href="/Contacto">
                                 <img
                                     src={IconoBurguer}
@@ -22,12 +23,19 @@ const Registro = () => {
                                 />
                             </a>
                             <h1>Registro BP</h1>
-                        </div>
-                        <section className="containerRegistro">
+                            <br></br>
                             <br></br>
                             <h3>*Obligatorio</h3>
                             <br></br>
-                            <article className="article ">
+                            <br></br>
+                            <br></br>
+                        </div>
+                        <br></br>
+                            <br></br>
+                            <br></br>
+                        </section>
+                        <section className="containerRegistro2">
+                            <article className="article">
                                 <br></br>
                                 <div className="mb-3">
                                     <label for="exampleFormControlInput1" className="form-label">
@@ -98,33 +106,48 @@ export default Registro
 const RegistroContain = styled.body`
   * {
     font-family: fantasy !important;
+    
   }
   .Main {
-    background-color: white;
+    background-color: rgb(237, 215, 188);
+    height: 50rem;
   }
 
   .textAreaComentario {
     height: 148px;
   }
-  .containerRegistro {
+  .containerRegistro1{}
+    background-color: rgb(237, 215, 188);
+    height: 10rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .containerRegistro1 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .containerRegistro2 {
     font-family: sans-serif;
     height: 150px;
     background-color: rgb(237, 215, 188);
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 50px;
-    margin-top: 100px;
+    padding-left: 5px;
+    margin-top: 2rem;
   }
 
-  .containerRegistro img {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
-  }
 
-  article {
-    padding-bottom: 50px;
+
+  article{
+    background-color: white;
+    display:block;
+    margin-top: 7rem;
+    width: 100%;
+
   }
 
   @media only screen and (max-width: 600px) {

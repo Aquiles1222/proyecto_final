@@ -104,6 +104,7 @@ export default Registro
 const RegistroContain = styled.body`
   * {
     font-family: fantasy !important;
+    
   }
   .Main {
     background-color: white;
@@ -113,7 +114,21 @@ const RegistroContain = styled.body`
   .textAreaComentario {
     height: 148px;
   }
-  .containerRegistro {
+  .containerRegistro1{
+    background-color: rgb(237, 215, 188);
+    height: 10rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 100px;
+  }
+
+  .containerRegistro1 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .containerRegistro2 {
     font-family: sans-serif;
     height: 150px;
     background-color: rgb(237, 215, 188);
@@ -134,6 +149,10 @@ const RegistroContain = styled.body`
 .article {
     margin-top: 00px;
   }
+  .NavBarInvisible {
+      margin-top: 0;
+      margin-bottom: 100px;
+    }
 
   @media only screen and (max-width: 600px) {
     .NavBarInvisible {

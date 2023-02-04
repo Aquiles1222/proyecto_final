@@ -7,6 +7,7 @@ import QuienesSomosPage from './components/quienesSomos';
 import ErrorPage from './pages/errorPage';
 import ContactoPage from './pages/ContactoPage';
 import MenuPage from './pages/MenuPage';
+import LoginPage from './pages/LoginPage';
 
 
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
 {
   path:"/Menu",
   element:<MenuPage/>,  
+},
+{
+  path:"/Login",
+  element:<LoginPage/>,  
 },
 {
   path:"*",

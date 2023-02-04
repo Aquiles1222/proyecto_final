@@ -1,0 +1,16 @@
+.login-container{
+    background-color: rgb(234, 206, 173);
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    margin-top: 3rem;
+}
+
+.btn{
+    height: 3rem;
+    width: 5rem;
+}

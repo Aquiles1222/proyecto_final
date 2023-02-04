@@ -1,22 +1,20 @@
 import React from 'react';
 import '../css/LoginPage.css';
+import NavbarContain from '../components/navbar';
 import Login from '../components/Login';
-import NavbarContain from "../components/navbar";
-import Footer from "../components/footer";
-import ContactoPageBody from "../components/ContactoPageBody";
+
 
 
 function LoginPage() {
   return (
-    <div>
-        <NavbarContain/>
-        <ContactoPageBody/>
-        <Footer/>
-    </div>
     <div className="Login">
+      <NavbarContain/>
       <Login/>    
     </div>
+    
+
   );
 }
+
 
 export default LoginPage;

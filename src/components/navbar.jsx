@@ -40,7 +40,7 @@ function NavbarContain() {
                                             <NavLink className={"nav-link"} to="/Contacto">Contacto</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <NavLink className={"nav-link"} to="/Login">Ingresar</NavLink>
+                                            <NavLink className={"nav-link, btn btn-outline-light"} to="/Login">Ingresar</NavLink>
                                         </li>
                                     </ul>
                                 </div>

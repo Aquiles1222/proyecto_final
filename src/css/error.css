@@ -1,0 +1,7 @@
+.home {
+    background: url('../img/error.jpg') no-repeat;
+    background-size: 100% ;
+    padding-bottom: 2rem;
+    font-family: fantasy !important;
+    background-image: url('../img/error.jpg');
+  }

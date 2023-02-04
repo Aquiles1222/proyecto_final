@@ -5,16 +5,20 @@ const Error = () => {
     return (
         <>
             <ErroCotain>
-
+                <header className="NavBarInvisible"></header>
                 <body>
-                    <div className="home">
-                        <Link button type="button" className="btn btn-outline-dark d-flex justify-content-center " to="/">
+                    <main>
 
-                            <span class="material-symbols-outlined" >
-                                home
-                            </span>
-                        </Link>
-                    </div>
+
+                        
+                        <div className="home">
+                            <Link button type="button" className="btn btn-outline-dark d-flex justify-content-center " to="/">
+                                <span class="material-symbols-outlined" >
+                                    home
+                                </span>
+                            </Link>
+                        </div>
+                    </main>
                 </body>
             </ErroCotain>
         </>
@@ -23,18 +27,34 @@ const Error = () => {
 
 const ErroCotain = styled.body`
 body{
-    background: url('../img/error.jpg') no-repeat;
-    background-size: 100% ;
-    padding-bottom: 2rem;
+    background-color: white;
+    background-size: 100vh ;
     font-family: fantasy !important;
-    background-image: element(error)
   }
   .home {
     block-size: calc(100vh - 808px);
-    margin-top: 40rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-  }
+    background-color: white;
+    height: calc(100vh - 236px)
+}
+
+  .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.Texto{
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+}
+
+
 `;
 export default Error

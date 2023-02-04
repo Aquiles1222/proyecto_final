@@ -74,7 +74,7 @@ function MenuYConocenos() {
 const MenuYConocenosCss = styled.article`
 .Main {
     background-color: white;
-}
+}   
 .cartas{
 padding: 0px !important;
 margin: 0px !important;

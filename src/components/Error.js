@@ -1,16 +1,17 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import '../css/error.css'
 
 const Error = () => {
     return (
         <>
-            <ErroCotain>
-                <header className="NavBarInvisible"></header>
+            <ErrorCotain>
+                <header className="NavBarInvisible">
+                    
+                </header>
                 <body>
                     <main>
-
-
-                        
+                  
                         <div className="home">
                             <Link button type="button" className="btn btn-outline-dark d-flex justify-content-center " to="/">
                                 <span class="material-symbols-outlined" >
@@ -20,14 +21,13 @@ const Error = () => {
                         </div>
                     </main>
                 </body>
-            </ErroCotain>
+            </ErrorCotain>
         </>
     )
 }
 
-const ErroCotain = styled.body`
+const ErrorCotain = styled.body`
 body{
-    background-color: white;
     background-size: 100vh ;
     font-family: fantasy !important;
   }
@@ -36,24 +36,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: white;
     height: calc(100vh - 236px)
 }
-
-  .NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 100px;
+h2{
+    color:black;
 }
+
 .Texto{
     color: black;
 }
-
-@media only screen and (max-width: 600px){
     .NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 200px;
-}
-}
+    margin-top: 0;
+    margin-bottom: 100px;
+    }
+
+    @media only screen and (max-width: 600px){
+        .NavBarInvisible{
+    margin-top: 0;
+    margin-bottom: 200px;
+    }
+    }
 
 
 `;

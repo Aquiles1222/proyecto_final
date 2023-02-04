@@ -1,7 +1,12 @@
 .home {
     background: url('../img/error.jpg') no-repeat;
-    background-size: 100% ;
+    background-color:#E7E3DD;
+    background-size: calc(110vh);
+    background-position: center;
+    background-position-y: center;
     padding-bottom: 2rem;
+    border-bottom-color: red  ;
     font-family: fantasy !important;
-    background-image: url('../img/error.jpg');
+
+    
   }

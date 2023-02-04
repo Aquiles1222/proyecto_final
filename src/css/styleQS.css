@@ -1,6 +1,5 @@
-body {
-    background: url(../img/fondoo.jpg);
+.Seccion1 {
     background-size: 100%;
     font-family: fantasy !important; 
+    background-image: url(../img/fondoo.jpg);  
   }
-  

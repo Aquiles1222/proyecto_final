@@ -10,22 +10,26 @@ const CartaQS = () => {
       <CartaQSContain>
         <body>
           <div>
-            <header className='NavBarInvisible'>
 
-            </header>
-          </div>
-          <section className="Seccion1">
-            <article className="container ">
-              <div className="card text-bg-dark Carta Carta1" >
-                <img src={Plantilla} className="card-img" alt="..." />
-                <div className="card-img-overlay Carta">
-                  <h2 className="TituloQS">¿Quienes Somos?</h2>
-                  <p className="card-text " >Somos un Grupo de Jóvenes Tucumanos de entre 20 a 30 años, con ambiciones de hacer nuestra hamburguesería la mas grande de la Provincia.
-                    Buscamos excelencia y calidad en nuestros productos, asi como un buen precio para que nuestros clientes puedan sentirse sastisfechos a la hora de probar nuestras hamburguesas.</p>
+            <div className='Fondo'>
+              <header className='NavBarInvisible'>
+
+              </header>
+            </div>
+            <section className="Seccion1">
+              <article className="container ">
+                <div className="card text-bg-dark Carta Carta1" >
+                  <img src={Plantilla} className="card-img" alt="..." />
+                  <div className="card-img-overlay Carta">
+                    <h2 className="TituloQS">¿Quienes Somos?</h2>
+                    <p className="card-text " >Somos un Grupo de Jóvenes Tucumanos de entre 20 a 30 años, con ambiciones de hacer nuestra hamburguesería la mas grande de la Provincia.
+                      Buscamos excelencia y calidad en nuestros productos, asi como un buen precio para que nuestros clientes puedan sentirse sastisfechos a la hora de probar nuestras hamburguesas.</p>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </section>
+              </article>
+            </section>
+          </div>
+
         </body>
       </CartaQSContain>
 
@@ -161,9 +165,6 @@ h2{
 @media only screen and (max-width: 600px){
 
 
-  html{
-    background-size: 100% no-repeat;
-  }
   .Seccion1{
     align-items: center;
     justify-content: flex-start;
@@ -184,10 +185,6 @@ h2{
 
 }
 @media only screen and (max-width: 486px){
-  html{
-    background-size: 100% no-repeat;
-  }
-
 }
 
 .tamañoImagen{

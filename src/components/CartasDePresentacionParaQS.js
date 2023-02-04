@@ -49,6 +49,7 @@ const CartasDePresentacionContain = styled.body`
   font-size: 1.5rem;
   display: inline;
   position: relative;
+  
 }
 #seccion2 {
   top: -100vh;   
@@ -56,6 +57,10 @@ const CartasDePresentacionContain = styled.body`
 
 @media only screen and (max-width: 600px)
 {
+  .tamañoImagen{
+    display: block;
+  }
+  
   h2{
     font-size: 20px !important;
   }
@@ -73,17 +78,9 @@ const CartasDePresentacionContain = styled.body`
     width: 300px;
   }
 }
-
-
-@media only screen and (max-width: 486px){
-  html{
-    background-size: 100% no-repeat;
-  }
-
-}
-
 .tamañoImagen{
 height:500px;
+
 }
 
 

@@ -10,56 +10,58 @@ function MenuYConocenos() {
     return (
         <>
             <MenuYConocenosCss>
-                <section className="container-fluid">
-                    <div className="row row-cols-1 row-cols-md-2 g-4 ">
-                        <div className="card text-bg-dark cartas">
-                            <img src={Menu} className="cartaimg" alt="..." />
-                            <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                                <Link type="button" className="btn btn-outline-light rounded-0 BotonConocenos" aria-current="page" to="/QuienesSomos">Conocenos</Link>
+                <main className="Main">
+                    <section className="container-fluid">
+                        <div className="row row-cols-1 row-cols-md-2 g-4 ">
+                            <div className="card text-bg-dark cartas">
+                                <img src={Menu} className="cartaimg" alt="..." />
+                                <div className="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <Link type="button" className="btn btn-outline-light rounded-0 BotonConocenos" aria-current="page" to="/QuienesSomos">Conocenos</Link>
+                                </div>
                             </div>
-                        </div>
-                        <div className="card text-bg-dark cartas">
-                            <img src={MenuBurguer1} className="cartaimg" alt="..." />
-                            <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                                <Link type="button" className="btn btn-outline-light rounded-0 BotonMenu" aria-current="page" to="Menu">Ver Menu</Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <br />
-                <div className="col text-center novedadesTexto" >
-                    <h2>NOVEDADES</h2>
-                </div>
-                <br />
-                <section className="container ">
-                    <div className="row row-cols-1 row-cols-md-2 g-4 Novedades">
-                        <div className="col">
-                            <div className="cartasNovedades">
-                                <img src={QuienesSomos2} className="card-img-top quienesSomosImg"
-                                    alt="..." />
-                                <div className="card-body text-center">
-                                    <h4 className="titulocarta">Contacto</h4>
-                                    <p className="card-text">
-                                        No dudes en ponerte en contacto con nosotros si tienes dudas o sugerencias.
-                                    </p>
-                                    <Link to="/Contacto" className="btn btn-dark fuenteHelvatica">Visitar</Link>
+                            <div className="card text-bg-dark cartas">
+                                <img src={MenuBurguer1} className="cartaimg" alt="..." />
+                                <div className="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <Link type="button" className="btn btn-outline-light rounded-0 BotonMenu" aria-current="page" to="Menu">Ver Menu</Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="cartasNovedades">
-                                <img src={MenuBurguer1} className="card-img-top" alt="..." />
-                                <div className="card-body text-center">
-                                    <h4 className="titulocarta">Probá nuestros nueva Hamburguesa</h4>
-                                    <p className="card-text">
-                                        Un nuevo sabor ha llegando, sé el primero en descubrirlo.
-                                    </p>
-                                    <Link to="/Menu" className="btn btn-dark fuenteHelvatica">Visitar</Link>
+                    </section>
+                    <br />
+                    <div className="col text-center novedadesTexto" >
+                        <h2>NOVEDADES</h2>
+                    </div>
+                    <br />
+                    <section className="container ">
+                        <div className="row row-cols-1 row-cols-md-2 g-4 Novedades">
+                            <div className="col">
+                                <div className="cartasNovedades">
+                                    <img src={QuienesSomos2} className="card-img-top quienesSomosImg"
+                                        alt="..." />
+                                    <div className="card-body text-center">
+                                        <h4 className="titulocarta">Contacto</h4>
+                                        <p className="card-text">
+                                            No dudes en ponerte en contacto con nosotros si tienes dudas o sugerencias.
+                                        </p>
+                                        <Link to="/Contacto" className="btn btn-dark fuenteHelvatica">Visitar</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="cartasNovedades">
+                                    <img src={MenuBurguer1} className="card-img-top" alt="..." />
+                                    <div className="card-body text-center">
+                                        <h4 className="titulocarta">Probá nuestros nueva Hamburguesa</h4>
+                                        <p className="card-text">
+                                            Un nuevo sabor ha llegando, sé el primero en descubrirlo.
+                                        </p>
+                                        <Link to="/Menu" className="btn btn-dark fuenteHelvatica">Visitar</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </main>
             </MenuYConocenosCss>
 
         </>)
@@ -70,9 +72,9 @@ function MenuYConocenos() {
 
 
 const MenuYConocenosCss = styled.article`
-*{
-
-  }
+.Main {
+    background-color: white;
+}   
 .cartas{
 padding: 0px !important;
 margin: 0px !important;

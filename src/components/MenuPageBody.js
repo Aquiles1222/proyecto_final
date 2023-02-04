@@ -19,7 +19,10 @@ const MenuPageBody = () => {
         <>
             <MenuPageBodyContain>
                 <body>
-                    <main>
+                    <header className='NavBarInvisible'>
+
+                    </header>
+                    <main className="main">
                         <section>
                             <article className="container">
                                 <div className="row Titulo">
@@ -118,9 +121,22 @@ export default MenuPageBody
 
 const MenuPageBodyContain = styled.body`
     body{
-
         font-family: fantasy !important;
-        margin-top: 120px;
-    }
+        margin-top: 0px;
+        }
+.main {
+    background-color: white;
 
+}
+.NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px){
+    .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+}
 `;

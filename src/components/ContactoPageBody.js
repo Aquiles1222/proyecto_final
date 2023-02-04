@@ -6,8 +6,11 @@ const ContactoPageBody = () => {
     return (
         <>
             <ContactoPageBodyContain>
+                <header className="NavBarInvisible">
+
+                </header>
                 <div>
-                    <main>
+                    <main className="Main">
                         <div className="containercontacto .col-5 .col-lg-12">
                             <a className="navbar-brand" href="/Contacto">
                                 <img src={IconoBurguer} alt='...' width="30" height="24" className="d-inline-block align-text-top" />
@@ -65,11 +68,10 @@ const ContactoPageBodyContain = styled.body`
 *{
     font-family: fantasy !important;
   }
-  
-.field:has(input:required)label:after{
-    content:'*';
-    color: red;
+.Main {
+    background-color: white;
 }
+
 .textAreaComentario {
     height:148px;
 }
@@ -95,6 +97,15 @@ article{
 }
 
 
+.NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 100px;
+}
 
-
+@media only screen and (max-width: 600px){
+    .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+}
 `;

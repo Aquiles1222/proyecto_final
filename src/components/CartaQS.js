@@ -131,36 +131,6 @@ h2{
 
 
 
-/* {
-  h2{
-    font-size: 20px !important;
-  }
-  .NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 200px;
-}
-  .Carta{
-    margin: 0px;
-    width: 250px;
-    height: 50px;
-    font-size: 15px;
-    margin-left: 0px;
-    margin-top: 110px;
-   
-  }
-  
-  .Carta img{
-    padding-right: 50px;
-    height: 600px;
-    width: 300px;
-  }
-} */
-
-
-
- /*Seccion2*/
-
-
 
 @media only screen and (max-width: 600px){
 

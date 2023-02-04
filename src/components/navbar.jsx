@@ -60,27 +60,23 @@ const NavContainer = styled.nav`
     font-family: fantasy !important;
   }
   
-  /*Navbar*/
   .navbar {
     align-items: center;
     background-color: black !important;
-    height: 100px; /*200px*/
+    height: 100px; 
     position: fixed;
     overflow: hidden;
     background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
   }
-  
-  /*icono*/
-  
+
   .navbar img {
     width: 80px;
     height: 80px;
   }
-  
-  /*menu*/
+
   .container {
     position: sticky;
     justify-content: space-between;
@@ -99,7 +95,7 @@ const NavContainer = styled.nav`
   @media only screen and (max-width: 600px)
   {
     .navbar {
-        height: 200px; /*300px*/
+        height: 200px;
     }
   }
 

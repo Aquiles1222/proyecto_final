@@ -3,6 +3,8 @@ import '../css/Login.css';
 import Title from '../Login/ComponenteLogin/title/Title';
 import Label from '../Login/ComponenteLogin/label/Label';
 import Input from '../Login/ComponenteLogin/input/Input';
+import Registro from "./Registro";
+import { Link } from 'react-router-dom';
 
 
 
@@ -58,11 +60,11 @@ const Login = () => {
 
             <br></br>
 
-            <Label text= 'Si no tenes una cuenta, registrate aqui: '/>
-            <button type="button" class="btn btn-outline-danger">Registrarme</button>
-          
-        
-        
+            <Label text= 'Si no tenes una cuenta, registrate aqui: '/> 
+            <Link type="button" className="btn btn-outline-danger " aria-current="page" to="{Registro} ">Registrarme</Link>
+            
+
+            
         </div>
     )
 };

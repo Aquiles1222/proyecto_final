@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
 import HomePage from './pages/homePage';
 import QuienesSomosPage from './pages/QuienesSomosPage';
 import ContactoPage from './pages/ContactoPage';
 import MenuPage from './pages/MenuPage';
 import LoginPage from './pages/LoginPage';
+import ErrorPage from './pages/errorPage';
 
 
 

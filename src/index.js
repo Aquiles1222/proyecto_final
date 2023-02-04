@@ -8,6 +8,7 @@ import ContactoPage from './pages/ContactoPage';
 import MenuPage from './pages/MenuPage';
 import LoginPage from './pages/LoginPage';
 import ErrorPage from './pages/errorPage';
+import Registro from './components/Registro';
 
 
 
@@ -33,9 +34,15 @@ const router = createBrowserRouter([
   element:<LoginPage/>,  
 },
 {
+  path:"/Registro",
+  element:<Registro/>,
+},
+{
   path:"*",
   element:<ErrorPage/>,
 }
+
+
 ]);
 
 

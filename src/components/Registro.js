@@ -3,6 +3,7 @@ import styled from "styled-components";
 import IconoBurguer from "../img/IconoBurguer.jpg";
 import Input from "../Login/ComponenteLogin/input/Input";
 
+
 const Registro = () => {
     return (
         <>
@@ -30,21 +31,22 @@ const Registro = () => {
                                 <br></br>
                                 <div className="mb-3">
                                     <label for="exampleFormControlInput1" className="form-label">
-                                        *Email
+                                        * Nombre Completo
                                     </label>
-                                    <input
-                                        type="email"
-                                        required
-                                        className="form-control"
-                                        id="exampleFormControlInput1"
-                                        placeholder="example:  name@mail.com"
+                                    <Input
+                                        attribute={{
+                                            id: "nombre",
+                                            name: "nombre",
+                                            type: "text",
+                                            placeholder: "Ingrese su nombre"
+                                        }}
                                     />
                                 </div>
                                 <br></br>
                                 <br></br>
                                 <div className="mb-3">
                                     <label for="exampleFormControlInput1" className="form-label">
-                                        *Nombre Completo
+                                        *Email
                                     </label>
                                     <Input
                                         attribute={{
@@ -53,7 +55,6 @@ const Registro = () => {
                                             type: "text",
                                             placeholder: "Ingrese su mail"
                                         }}
-                                        handleChange={handleChange}
                                     />
                                 </div>
                                 <br></br>
@@ -69,7 +70,6 @@ const Registro = () => {
                                             type: "password",
                                             placeholder: "Ingrese su contraseña",
                                         }}
-                                        handleChange={handleChange}
                                     />
                                 </div>
                                 <br></br>
@@ -93,7 +93,7 @@ const Registro = () => {
 };
 
 
-export default Registro;
+export default Registro
 
 const RegistroContain = styled.body`
   * {

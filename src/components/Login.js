@@ -61,8 +61,7 @@ const Login = () => {
             <br></br>
 
             <Label text= 'Si no tenes una cuenta, registrate aqui: '/> 
-            <Link type="button" className="btn btn-outline-danger " aria-current="page" to="{Registro} ">Registrarme</Link>
-            
+            <Link type="button" className="btn btn-outline-danger " aria-current="page" to="/Registro">Registrarme</Link>
         </div>
     )
 };

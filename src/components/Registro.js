@@ -10,6 +10,9 @@ const Registro = () => {
             {" "}
             <RegistroContain>
                 <div>
+                    <header className="NavBarInvisble">
+                        
+                    </header>
                     <main className="Main">
                         <section className="containerRegistro1 .col-5 .col-lg-12">
                         <div >
@@ -116,11 +119,12 @@ const RegistroContain = styled.body`
   .textAreaComentario {
     height: 148px;
   }
-  .containerRegistro1{}
+  .containerRegistro1{
     background-color: rgb(237, 215, 188);
     height: 10rem;
     width: 100%;
     margin-bottom: 2rem;
+    margin-top: 100px;
   }
 
   .containerRegistro1 img {
@@ -137,7 +141,7 @@ const RegistroContain = styled.body`
     justify-content: flex-start;
     align-items: center;
     padding-left: 5px;
-    margin-top: 2rem;
+    margin-top: 100px;
   }
 
 
@@ -145,15 +149,21 @@ const RegistroContain = styled.body`
   article{
     background-color: white;
     display:block;
-    margin-top: 7rem;
+    margin-top: 29rem;
     width: 100%;
+    margin-bottom: 100px;
 
   }
+  .NavBarInvisible {
+      margin-top: 0;
+      margin-bottom: 100px;
+    }
 
   @media only screen and (max-width: 600px) {
     .NavBarInvisible {
       margin-top: 0;
       margin-bottom: 200px;
     }
-  }
+    }
+  
 `;

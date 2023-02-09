@@ -3,7 +3,6 @@ import '../css/Login.css';
 import Title from '../Login/ComponenteLogin/title/Title';
 import Label from '../Login/ComponenteLogin/label/Label';
 import Input from '../Login/ComponenteLogin/input/Input';
-import Registro from "./Registro";
 import { Link } from 'react-router-dom';
 
 
@@ -17,7 +16,7 @@ const Login = () => {
 
     function handleChange (name, value){
         if (name === "mail"){
-            //variable use para guardar
+        
             setUser (value)
         }
         else {

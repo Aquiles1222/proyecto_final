@@ -9,13 +9,13 @@ import Footer from "../components/footer";
 
 
 function RegistroPage() {
-    return (
-      <>
-        <NavbarContain/>
-        <Registro/> 
-        <Footer/>     
-      </>
-    );
-  }
-  
+  return (
+    <>
+        <NavbarContain />
+        <Registro />
+        <Footer />
+    </>
+  );
+}
+
 export default RegistroPage;

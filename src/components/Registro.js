@@ -48,12 +48,10 @@ const Registro = () =>
                                             placeholder: "Ingrese su nombre"
                                         }}
                                     />
-                                </a>
-                                <h1>Registro BP</h1>
                             </div>
+                            </section>
                             <section className="containerRegistro Obligatorio">
                                 <br></br>
-                                <h3>*Obligatorio</h3>
                                 <br></br>
                                 <div className="mb-3">
                                     <label for="exampleFormControlInput1" className="form-label">

@@ -1,17 +1,15 @@
 import React from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
 import burguer1 from '../img/burguer1.jpg';
 import wp from '../img/wp.jpeg';
 import insta from '../img/insta.jpeg';
 import face from '../img/face.jpeg';
 import tw from '../img/tw.jpeg';
+import "../css/footer.css";
 
 function Footer() {
     return (
         <>
-        <footer>
-            <FooterContainer>
                 <div>
                     <footer className="cFooter">
 
@@ -61,51 +59,9 @@ function Footer() {
 
                     </footer>
                 </div>
-            </FooterContainer>
-            </footer>
         </>
     )
 }
-
-
-
-const FooterContainer = styled.footer`
-*{
-    font-family: fantasy !important;
-    position: static;
-    
-    
-  }
-
-.cFooter {
-
-background-color: black;
-clear: both;
-}
-
-.iHamburguesa {
-
-width: 60px;
-height: 60px;
-}
-
-.iRedes {
-
-width: 40px;
-height: 40px;
-}
-
-.item {
-
-color: white;
-font-family: fantasy;
-text-decoration: none;
-}
-
-.lista {
-list-style-type: none;
-}
-`;
 
 
 export default Footer

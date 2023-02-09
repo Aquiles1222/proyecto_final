@@ -1,0 +1,44 @@
+
+*{
+    font-family: fantasy !important;
+  }
+.Main {
+    background-color: white;
+}
+
+.textAreaComentario {
+    height:148px;
+}
+.containercontacto{
+    font-family: sans-serif;
+    height: 150px;
+    background-color: rgb(237, 215, 188) ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+.containercontacto img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+article{
+    padding-bottom: 50px;
+}
+
+
+.NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px){
+    .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+}

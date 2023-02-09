@@ -1,15 +1,14 @@
 import React from "react";
-import styled from "styled-components"
 import { Link } from "react-router-dom";
 import Menu from '../img/Menu.jpg';
 import MenuBurguer1 from '../img/MenuBurguer1.jpg'
 import QuienesSomos2 from '../img/QuienesSomos2.jpg'
+import "../css/menu_y_conocenos.css"
 
 
 function MenuYConocenos() {
     return (
         <>
-            <MenuYConocenosCss>
                 <main className="Main">
                     <section className="container-fluid">
                         <div className="row row-cols-1 row-cols-md-2 g-4 ">
@@ -62,98 +61,9 @@ function MenuYConocenos() {
                         </div>
                     </section>
                 </main>
-            </MenuYConocenosCss>
-
         </>)
 
 
 }
 
-
-
-const MenuYConocenosCss = styled.article`
-.Main {
-    background-color: white;
-}   
-.cartas{
-padding: 0px !important;
-margin: 0px !important;
-font-family: fantasy !important;
-}
-.BotonMenu{
-   text-decoration: none;
-  color: white;
-  padding: 9px 20px;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  transition: all .3s ease-in-out;
-} 
-.BotonConocenos {
-    text-decoration: none;
-  color: white;
-  padding: 9px 20px;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  transition: all .3s ease-in-out;
-}
-
-.cartaimg {
-height: 100%;
-width: 100%;
-opacity: 0.7;
-}
-.Novedades {
-background-color: white;
-border: 5px;
-border-radius: 10px;
-font-family: 'Lora', serif;
-
-}
-.novedadesTexto {
-    font-family: fantasy !important;
-    color: rgb(35, 109, 66);
-}
-
-.cartasNovedades {
-padding: 20px;
-}
-.quienesSomosImg {
-    height: 100%; 
-    width: 100%;
-}
-.fuenteHelvatica {
-    font-family: Helvetica;
-}
-
-.cartasNovedades img {
-border-style: outset;
-border: 5px;
-border-radius: 10px;
-}
-
-@media only screen and (min-width: 1200px)
-{
-.cartasNovedades img {
-    height: 400px !important;
-  }
-}
-
-@media only screen and (min-width: 992px)
-{
-.cartasNovedades img {
-    height: 300px !important;
-  }
-}
-
-@media only screen and (min-width: 768px)
-{
-.cartasNovedades img {
-    height: 200px;
-  }
-}
-
-
-
-`;
-
-export default MenuYConocenos
+export default MenuYConocenos;

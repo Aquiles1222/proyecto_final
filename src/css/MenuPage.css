@@ -1,0 +1,26 @@
+body{
+    font-family: fantasy !important;
+    margin-top: 0px;
+    }
+.main {
+background-color: white;
+
+}
+.NavBarInvisible{
+margin-top: 0;
+margin-bottom: 100px;
+}
+.titulo{
+    color: #000;
+}
+
+@media only screen and (max-width: 600px){
+.NavBarInvisible{
+margin-top: 0;
+margin-bottom: 200px;
+}
+}
+
+
+
+;

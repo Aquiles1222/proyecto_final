@@ -1,6 +1,5 @@
-
-import React from 'react'
-import styled from 'styled-components';
+import React from 'react';
+import "../css/navbar.css";
 import burger1 from '../img/burguer1.jpg';
 import { NavLink } from 'react-router-dom';
 
@@ -8,9 +7,6 @@ import { NavLink } from 'react-router-dom';
 function NavbarContain() {
     return (
         <>
-            <div>
-
-                <NavContainer>
                     <header id="header" className="sticky-top">
                         <nav className="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-black justify-content-around">
                             <div className="d-flex align-items-center justify-content-start">
@@ -47,63 +43,8 @@ function NavbarContain() {
                             </div>
                         </nav>
                     </header>
-                </NavContainer>
-
-            </div>
         </>
     )
 }
-
-const NavContainer = styled.nav`
-
-*{
-    font-family: fantasy !important;
-  }
-  
-  /*Navbar*/
-  .navbar {
-    align-items: center;
-    background-color: black !important;
-    height: 100px; /*200px*/
-    position: fixed;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
-  /*icono*/
-  
-  .navbar img {
-    width: 80px;
-    height: 80px;
-  }
-  
-  /*menu*/
-  .container {
-    position: sticky;
-    justify-content: space-between;
-  }
-  
-  .text-burger {
-    font-size: 30px;
-    color: white;
-  }
-  
-  .menu {
-    color: white !important;
-  }
-  
-  
-  @media only screen and (max-width: 600px)
-  {
-    .navbar {
-        height: 200px; /*300px*/
-    }
-  }
-
-
-`;
 
 export default NavbarContain

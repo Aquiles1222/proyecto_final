@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import Cebolla from "../img/burguer_menos_tamaño/Cebolla.png"
 import Chicken from "../img/burguer_menos_tamaño/Chicken.png"
 import Cuarto from "../img/burguer_menos_tamaño/cuarto.png"
@@ -11,16 +10,14 @@ import PapasChedarYBacon from "../img/burguer_menos_tamaño/Papas-Cheddar-y-Baco
 import PapasChedar from "../img/burguer_menos_tamaño/Papas-Cheddar.jpg"
 import PolloEspecial from "../img/burguer_menos_tamaño/polloespecial.png"
 import Whopper from "../img/burguer_menos_tamaño/whopper.jpg"
+import "../css/MenuPage.css"
 
 
 
 const MenuPageBody = () => {
     return (
-        <>
-            <MenuPageBodyContain>
                 <body>
                     <header className='NavBarInvisible'>
-
                     </header>
                     <main className="main">
                         <section>
@@ -110,33 +107,10 @@ const MenuPageBody = () => {
                                 </div>
                             </article>
                         </section>
+                        
                     </main>
                 </body>
-            </MenuPageBodyContain>
-        </>
     )
 }
 
 export default MenuPageBody
-
-const MenuPageBodyContain = styled.body`
-    body{
-        font-family: fantasy !important;
-        margin-top: 0px;
-        }
-.main {
-    background-color: white;
-
-}
-.NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 100px;
-}
-
-@media only screen and (max-width: 600px){
-    .NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 200px;
-}
-}
-`;

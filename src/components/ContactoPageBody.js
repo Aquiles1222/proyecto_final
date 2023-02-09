@@ -1,13 +1,12 @@
-import styled from "styled-components";
+import React from 'react';
+import "../css/ContactoPageBody.css"
 import IconoBurguer from '../img/IconoBurguer.jpg'
 
 
 const ContactoPageBody = () => {
     return (
         <>
-            <ContactoPageBodyContain>
                 <header className="NavBarInvisible">
-
                 </header>
                 <div>
                     <main className="Main">
@@ -52,60 +51,9 @@ const ContactoPageBody = () => {
                             </article>
                         </section>
                     </main>
-
-
                 </div>
-            </ContactoPageBodyContain>
         </>
     )
 }
 
-export default ContactoPageBody
-
-
-const ContactoPageBodyContain = styled.body`
-
-*{
-    font-family: fantasy !important;
-  }
-.Main {
-    background-color: white;
-}
-
-.textAreaComentario {
-    height:148px;
-}
-.containercontacto{
-    font-family: sans-serif;
-    height: 150px;
-    background-color: rgb(237, 215, 188) ;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
-    padding-left: 50px;
-    margin-top: 100px;
-}
-
-.containercontacto img{
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
-}
-
-article{
-    padding-bottom: 50px;
-}
-
-
-.NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 100px;
-}
-
-@media only screen and (max-width: 600px){
-    .NavBarInvisible{
-  margin-top: 0;
-  margin-bottom: 200px;
-}
-}
-`;
+export default ContactoPageBody;

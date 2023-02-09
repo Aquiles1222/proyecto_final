@@ -1,16 +1,13 @@
 import React from "react";
-import styled from "styled-components";
 import IconoBurguer from "../img/IconoBurguer.jpg";
 import Input from "../Login/ComponenteLogin/input/Input";
+import "../css/Registro.css";
 
 
-const Registro = () => {
-    return (
-        <>
-            {" "}
-            <RegistroContain>
-                <div>
-                    <main className="Main">
+const Registro = () => 
+   {
+        return (
+                    <main className="main">
                         <section className="containerRegistro1 .col-5 .col-lg-12">
                         <div >
                             <a className="navbar-brand" href="/Contacto">
@@ -25,17 +22,19 @@ const Registro = () => {
                             <h1>Registro BP</h1>
                             <br></br>
                             <br></br>
+                            </div>
+                            <div className="h3">
                             <h3>*Obligatorio</h3>
+                            </div>
                             <br></br>
                             <br></br>
                             <br></br>
-                        </div>
-                        <br></br>
+                       
+                            <br></br>
                             <br></br>
                             <br></br>
                         </section>
                         <section className="containerRegistro2">
-                            <article className="article">
                                 <br></br>
                                 <div className="mb-3">
                                     <label for="exampleFormControlInput1" className="form-label">
@@ -84,76 +83,17 @@ const Registro = () => {
                                 <br></br>
                                 <div className="d-grid gap-2 d-md-block">
                                     <a
-                                        className="btn btn-dangerbtn btn-secondary"
+                                        className="btn btn-danger"
                                         href=""
                                         role="button"
                                     >
                                         Enviar
                                     </a>
                                 </div>
-                            </article>
                         </section>
                     </main>
-                </div>
-            </RegistroContain>
-        </>
-    );
-};
+                )
+    };
 
 
-export default Registro
-
-const RegistroContain = styled.body`
-  * {
-    font-family: fantasy !important;
-    
-  }
-  .Main {
-    background-color: rgb(237, 215, 188);
-    height: 50rem;
-  }
-
-  .textAreaComentario {
-    height: 148px;
-  }
-  .containerRegistro1{}
-    background-color: rgb(237, 215, 188);
-    height: 10rem;
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  .containerRegistro1 img {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
-  }
-
-  .containerRegistro2 {
-    font-family: sans-serif;
-    height: 150px;
-    background-color: rgb(237, 215, 188);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 5px;
-    margin-top: 2rem;
-  }
-
-
-
-  article{
-    background-color: white;
-    display:block;
-    margin-top: 7rem;
-    width: 100%;
-
-  }
-
-  @media only screen and (max-width: 600px) {
-    .NavBarInvisible {
-      margin-top: 0;
-      margin-bottom: 200px;
-    }
-  }
-`;
+export default Registro;

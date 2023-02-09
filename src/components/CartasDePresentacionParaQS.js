@@ -1,12 +1,11 @@
-import styled from "styled-components"
 import Aquiles from '../img/Aquiles.jpeg';
 import gonzalo from '../img/gonzalo.jpeg';
 import Victor from '../img/Victor.jpeg';
+import "../css/CartasDePresentacionParaQs.css"
 
 const CartasDePresentacion = () => {
     return (
         <>
-            <CartasDePresentacionContain>
                 <article id="seccion2" className="ancla">
                     <div className="card-group">
                         <div className="card">
@@ -35,61 +34,9 @@ const CartasDePresentacion = () => {
                         </div>
                     </div>
                 </article>
-            </CartasDePresentacionContain>
         </>
     )
 }
 
-
-const CartasDePresentacionContain = styled.body`
-
-
-#seccion2 .car, 
-#seccion2 .card h5{
-  font-size: 1.5rem;
-  display: inline;
-  position: relative;
-}
-#seccion2 {
-  top: -100vh;   
-}
-
-@media only screen and (max-width: 600px)
-{
-  h2{
-    font-size: 20px !important;
-  }
-  .Carta{
-    margin: 0px;
-    width: 250px;
-    height: 50px;
-    font-size: 15px;
-
-  }
-  
-  .Carta img{
-    padding-right: 50px;
-    height: 400px;
-    width: 300px;
-  }
-}
-
-
-@media only screen and (max-width: 486px){
-  html{
-    background-size: 100% no-repeat;
-  }
-
-}
-
-.tamañoImagen{
-height:500px;
-}
-
-
-
-
-
-`;
 
 export default CartasDePresentacion

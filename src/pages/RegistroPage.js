@@ -7,13 +7,14 @@ import Footer from "../components/footer";
 
 
 
+
 function RegistroPage() {
     return (
-      <div className="Registro">
+      <>
         <NavbarContain/>
         <Registro/> 
-      <Footer/>     
-      </div>
+        <Footer/>     
+      </>
     );
   }
   

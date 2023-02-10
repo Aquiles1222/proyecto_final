@@ -1,0 +1,47 @@
+*{
+    font-family: fantasy !important;
+  }
+  
+  /*Navbar*/
+  .navbar {
+    align-items: center;
+    background-color: black !important;
+    height: 100px;
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+  }
+  
+  /*icono*/
+  
+  .navbar img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /*menu*/
+  .container {
+    position: sticky;
+    justify-content: space-between;
+  }
+  
+  .text-burger {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .menu {
+    color: white !important;
+  }
+  
+  
+  @media only screen and (max-width: 600px)
+  {
+      .navbar {
+          height: 200px; 
+      }
+  }
+

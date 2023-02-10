@@ -1,0 +1,42 @@
+.home {
+    background: url('../img/error.jpg') no-repeat;
+    background-color:#E7E3DD;
+    background-size: calc(110vh);
+    background-position: center;
+    background-position-y: center;
+    padding-bottom: 2rem;
+    border-bottom-color: red  ;
+    font-family: fantasy !important; 
+  }
+
+  
+body{
+  background-size: 100vh ;
+  font-family: fantasy !important;
+}
+.home {
+  block-size: calc(100vh - 808px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: calc(100vh - 236px)
+}
+h2{
+  color:black;
+}
+
+.Texto{
+  color: black;
+}
+  .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 100px;
+  }
+
+  @media only screen and (max-width: 600px){
+      .NavBarInvisible{
+  margin-top: 0;
+  margin-bottom: 200px;
+  }
+  }
+

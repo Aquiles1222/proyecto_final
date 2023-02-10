@@ -1,0 +1,39 @@
+.login-container{
+    background-color: rgb(234, 206, 173);
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    margin-top: 3rem;
+}
+
+.containerformulario{
+    margin-top: 3rem;
+    height: 20rem;
+    display: block;
+    margin-left: 2rem;
+}
+
+.Label1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.input{
+    width: 50%;
+}
+
+.Button{
+    display:flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px)
+{
+    .login-container{
+        margin-top: 9rem;
+    }
+}
+;

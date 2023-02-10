@@ -1,0 +1,41 @@
+  html{
+    font-family: fantasy !important;
+    background-color: rgb(237, 215, 188);
+  }
+
+  .containerRegistro1{
+    background-color: rgb(237, 215, 188) ;
+    width: 100%;
+    height: 12rem;
+    margin-top: 9rem;
+  }
+
+  .containerRegistro1 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  .h3{
+    height: 6rem;
+    background-color: rgb(246, 233, 218);
+    display: flex;
+    align-items: center;
+  }
+
+  .containerRegistro2 {
+    background-color: white !important;
+    font-family: sans-serif;
+    padding-left: 5px;
+    margin-top: 80px;
+    margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+    .containerRegistro1{
+        height: 11rem;
+        margin-top: 13rem;
+      }
+  }
+  
+;
